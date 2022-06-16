@@ -555,6 +555,7 @@ textarea:hover, textarea:focus {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+  cursor: pointer;
 }
 
 .hide-me-to {
