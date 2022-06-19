@@ -76,25 +76,19 @@
                     </li>
                     <li class="menu__container--item">
                         <a class="menu__container--link" href="#">
-                            <span class="menu__container--span">
-                                |
-                            </span>
+                            
                             Twitter
                         </a>
                     </li>
                     <li class="menu__container--item">
                         <a class="menu__container--link" href="#">
-                            <span class="menu__container--span">
-                                |
-                            </span>
+                            
                             Facebook
                         </a>
                     </li>
                     <li class="menu__container--item">
                         <a class="menu__container--link" href="#">
-                            <span class="menu__container--span">
-                                |
-                            </span>
+                            
                             LinkedIn
                         </a>
                     </li>
@@ -135,19 +129,26 @@
             <ul class="portfolio__list--content list">
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                        <img
-                        srcset="
-                    ./images/mobile--img/mobile__portfolio--erste.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--erste.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--erste.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--erste.1280.jpg 3.5x
-                    "
-
-                        src="./images/img.portfolio.1.jpg"
-                        alt="Laptop with photo of three people"
-                        width="370"
-                        height="294"
-                        class="portfolio--img">
+                        <picture>
+                            <source srcset="./images/portfolio--pc/computer.x1.jpg 1x,
+                            ./images/portfolio--pc/computer.x2.jpg 2x,
+                            ./images/portfolio--pc/computer.x3.jpg 3x"
+                            media="(min-width:1200px)">
+                            <source srcset="
+                            ./images/tabplet--portfolio/tablet-portfolio1.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio1.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio1.x3.jpg 3x
+                            "
+                            media="(min-width:768px)">
+                            <source srcset="./images/mobile--img/mobile__portfolio--erste.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--erste.640.jpg 2x,
+                            /images/mobile--img/mobile__portfolio--erste.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--erste.1280.jpg 3.5x"
+                            media="(max-width:767px)">
+                            <img src="./images/img.portfolio.1.jpg" alt="Laptop with photo of three people"
+                                width="370"
+                                height="294" class="portfolio--img">
+                        </picture>
                         <div class="portfolio__container--transform">
                             <a href="#" rel="noopener noreferrer">
                             <p class="transform--label">
@@ -165,18 +166,25 @@
                 </li>
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                    <img
-                    srcset="
-                    ./images/mobile--img/mobile__portfolio--zweite.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--zweite.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--zweite.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--zweite.1280.jpg 3.5x
-                    "
-
-                    src="./images/img.portfolio.2.jpg"
-                    alt="basketball players" width="370"
-                    height="294"
-                    class="portfolio--img">
+                    <picture>
+                        <source srcset="./images/portfolio--pc/pc-portfolio2.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio2.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio2.x3.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio2.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio2.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio2.x3.jpg 3x
+                            " media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--zweite.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--zweite.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--zweite.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--zweite.1280.jpg 3.5x"
+                            media="(max-width:767px)">
+                        <img src="./images/img.portfolio.2.jpg" alt="basketball players" width="370" height="294"
+                           class="portfolio--img">
+                    </picture>
                       <div class="portfolio__container--transform">
                           <a href="#" rel="noopener noreferrer">
                             <p class="transform--label">
@@ -194,19 +202,25 @@
                 </li>
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                    <img
-                    srcset="
-                    ./images/mobile--img/mobile__portfolio--dritte.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--dritte.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--dritte.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--dritte.1280.jpg 3.5x
-                    "
-
-                    src="./images/img.portfolio.3.jpg"
-                    alt="fish business logo"
-                    width="370"
-                    height="294"
-                    class="portfolio--img">
+                    <picture>
+                        <source srcset="
+                            ./images/portfolio--pc/pc-portfolio3.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio3.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio3.x3.jpg 3x" 
+                            media="(min-width:1200px)">
+                        <source srcset="
+                              ./images/tabplet--portfolio/tablet-portfolio3.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio3.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio3.x3.jpg 3x" 
+                            media="(min-width:768px)">
+                        <source srcset="./images/mobile--img/mobile__portfolio--dritte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--dritte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--dritte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--dritte.1280.jpg 3.5x" 
+                            media="(min-width:320px)">
+                        <img src="./images/img.portfolio.3.jpg" alt="fish business logo" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
                     <div class="portfolio__container--transform">
                         <a href="#" rel="noopener noreferrer">
                         <p class="transform--label">
@@ -224,19 +238,25 @@
                 </li>
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                    <img
-                    srcset="
-                    ./images/mobile--img/mobile__portfolio--vierte.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--vierte.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--vierte.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--vierte.1280.jpg 3.5x
-                    "
-
-                    src="./images/img.portfolio.4.jpg"
-                    alt="Black headphones"
-                    width="370"
-                    height="294"
-                    class="portfolio--img">
+                    <picture>
+                        <source srcset="
+                             ./images/portfolio--pc/pc-portfolio4.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio4.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio4.x3.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio4.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio4.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio4.x3.jpg 3x" media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--vierte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--vierte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--vierte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--vierte.1280.jpg 3.5x
+                            " media="(min-width:320px)">
+                        <img src="./images/img.portfolio.4.jpg" alt="Black headphones" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
                         <div class="portfolio__container--transform">
                             <a href="#" rel="noopener noreferrer">
                             <p class="transform--label">
@@ -254,19 +274,26 @@
                 </li>
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                    <img
-                    srcset="
-                    ./images/mobile--img/mobile__portfolio--fünfte.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--fünfte.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--fünfte.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--fünfte.1280.jpg 3.5x
-                    "
-
-                    src="./images/img.portfolio.5.jpg"
-                    alt="white box and ordinary smaller box"
-                    width="370"
-                    height="294"
-                    class="portfolio--img">
+                    <picture>
+                        <source srcset="./images/portfolio--pc/pc-portfolio5.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio5.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio5.x3.jpg 3x" 
+                        media="(min-width:1200px)">
+                        <source srcset="
+                            ./images/tabplet--portfolio/tablet-portfolio5.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio5.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio5.x3.jpg 3x"
+                        media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--fünfte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--fünfte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--fünfte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--fünfte.1280.jpg 3.5x
+                            "
+                        media="(min-width:320px)">
+                        <img src="./images/img.portfolio.5.jpg" alt="white box and ordinary smaller box" width="370"
+                            height="294" class="portfolio--img">
+                    </picture>
                     <div class="portfolio__container--transform">
                         <a href="#" rel="noopener noreferrer">
                         <p class="transform--label">
@@ -284,19 +311,26 @@
                 </li>
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                    <img
-                    srcset="
-                    ./images/mobile--img/mobile__portfolio--sechste.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--sechste.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--sechste.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--sechste.1280.jpg 3.5x
-                    "
-
-                    src="./images/img.portfolio.6.jpg"
-                    alt="computer screen"
-                    width="370"
-                    height="294"
-                    class="portfolio--img">
+                    <picture>
+                        <source srcset="
+                            ./images/portfolio--pc/pc-portfolio6.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio6.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio6.x3.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio6.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio6.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio6.x3.jpg 3x
+                            " media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--sechste.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--sechste.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--sechste.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--sechste.1280.jpg 3.5x
+                            " media="(min-width:320px)">
+                        <img src="./images/img.portfolio.6.jpg" alt="computer screen" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
                         <div class="portfolio__container--transform">
                             <a href="#" rel="noopener noreferrer">
                             <p class="transform--label">
@@ -314,19 +348,27 @@
                 </li>
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                    <img
-                    srcset="
-                    ./images/mobile--img/mobile__portfolio--siebter.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--siebter.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--siebter.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--siebter.1280.jpg 3.5x
-                    "
-
-                    src="./images/img.portfolio.7.jpg"
-                    alt="magazine"
-                    width="370"
-                    height="294"
-                    class="portfolio--img">
+                    <picture>
+                        <source srcset="
+                            ./images/portfolio--pc/pc-portfolio7.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio7.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio7.x3.jpg 3x"
+                            media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio7.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio7.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio7.x3.jpg 3x"
+                            media="(min-width:768px)">
+                        <source srcset="
+                            ./images/mobile--img/mobile__portfolio--siebter.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--siebter.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--siebter.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--siebter.1280.jpg 3.5x
+                            " 
+                            media="(min-width:320px)">
+                        <img src="./images/img.portfolio.7.jpg" alt="magazine" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
                         <div class="portfolio__container--transform">
                                 <a href="#" rel="noopener noreferrer">
                                 <p class="transform--label">
@@ -344,19 +386,27 @@
                 </li>
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                    <img
-                    srcset="
-                    ./images/mobile--img/mobile__portfolio--achte.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--achte.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--achte.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--achte.1280.jpg 3.5x
-                    "
-
-                    src="./images/img.portfolio.8.jpg"
-                    alt="white tag"
-                    width="370"
-                    height="294"
-                    class="portfolio--img">
+                    <picture>
+                        <source srcset="
+                             ./images/portfolio--pc/pc-portfolio8.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio8.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio8.x3.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio8.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio8.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio8.x3.jpg 3x"
+                            media="(min-width:768px)">
+                        <source  srcset="
+                            ./images/mobile--img/mobile__portfolio--achte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--achte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--achte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--achte.1280.jpg 3.5x
+                            "
+                            media="(min-width:320px)">
+                        <img src="./images/img.portfolio.8.jpg" alt="white tag" width="370" height="294"
+                            class="portfolio--img">
+                    </picture>
                     <div class="portfolio__container--transform">
                         <a href="#" rel="noopener noreferrer">
                         <p class="transform--label">
@@ -374,19 +424,26 @@
                 </li>
                 <li class="portfolio__item--content">
                     <div class="portfolio__container--content">
-                    <img
-                    srcset="
-                    ./images/mobile--img/mobile__portfolio--neunte.320.jpg 1x,
-                    ./images/mobile--img/mobile__portfolio--neunte.640.jpg 2x,
-                    ./images/mobile--img/mobile__portfolio--neunte.960.jpg 3x,
-                    ./images/mobile--img/mobile__portfolio--neunte.1280.jpg 3.5x
-                    "
-
-                    src="./images/img.portfolio.9.jpg"
-                    alt="MacBook"
-                    width="370"
-                    height="294"
-                    class="portfolio--img">
+                    <picture>
+                        <source srcset="
+                             ./images/portfolio--pc/pc-portfolio9.x1.jpg 1x,
+                            ./images/portfolio--pc/pc-portfolio9.x2.jpg 2x,
+                            ./images/portfolio--pc/pc-portfolio9.x3.jpg 3x"
+                        media="(min-width:1200px)">
+                        <source srcset="
+                        ./images/tabplet--portfolio/tablet-portfolio9.x1.jpg 1x,
+                            ./images/tabplet--portfolio/tablet-portfolio9.x2.jpg 2x,
+                            ./images/tabplet--portfolio/tablet-portfolio9.x3.jpg 3x"
+                            media="(min-width:768px)">
+                        <source  srcset="
+                            ./images/mobile--img/mobile__portfolio--neunte.320.jpg 1x,
+                            ./images/mobile--img/mobile__portfolio--neunte.640.jpg 2x,
+                            ./images/mobile--img/mobile__portfolio--neunte.960.jpg 3x,
+                            ./images/mobile--img/mobile__portfolio--neunte.1280.jpg 3.5x
+                            "
+                            media="(min-width:320px)">
+                        <img src="./images/img.portfolio.9.jpg" alt="MacBook" width="370" height="294" class="portfolio--img">
+                    </picture>
                     <div class="portfolio__container--transform">
                         <a href="#" rel="noopener noreferrer">
                         <p class="transform--label">

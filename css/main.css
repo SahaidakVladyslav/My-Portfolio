@@ -603,9 +603,9 @@ textarea:hover, textarea:focus {
 }
 
 .btn-form {
-  width: 200px;
+  width: 150px;
   height: 50px;
-  padding: 10px 55px 10px 56px;
+  padding: 10px 25px 10px 25px;
   margin-right: auto;
   margin-left: auto;
   margin-top: 4%;
@@ -620,13 +620,6 @@ textarea:hover, textarea:focus {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.87;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
 }
 
@@ -1215,6 +1208,11 @@ textarea:hover, textarea:focus {
   margin-bottom: 9px;
 }
 
+.team__title {
+  background: #d3d2ee;
+  background: radial-gradient(circle, #d3d2ee 6%, rgba(228, 219, 231, 0.526786) 16%, #dfdedf 49%, #dedede 49%, rgba(162, 147, 168, 0.308298) 70%, rgba(0, 0, 0, 0) 97%);
+}
+
 @media screen and (min-width: 150px) and (max-width: 767px) {
   .link__current::after {
     display: none;
@@ -1371,6 +1369,26 @@ textarea:hover, textarea:focus {
   .menu__container--span {
     margin-right: 0;
     margin-left: 0;
+  }
+}
+
+@media screen and (min-width: 150px) and (max-width: 767px) {
+  .menu__container--item {
+    position: relative;
+  }
+  .menu__container--item:not(:last-child) {
+    margin-right: 20px;
+  }
+  .menu__container--item:not(:first-child):after {
+    position: absolute;
+    top: 0;
+    left: -30%;
+    content: '';
+    display: block;
+    width: 0px;
+    height: 22px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    margin-left: 10px;
   }
 }
 
@@ -2201,6 +2219,9 @@ textarea:hover, textarea:focus {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+  }
+  .portfolio__container {
+    padding-top: 174px;
   }
 }
 
