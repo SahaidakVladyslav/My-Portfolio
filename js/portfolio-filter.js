@@ -24,3 +24,6 @@ document.querySelector('body')
     .addEventListener('click', event => {
         filterBtn(event)
     });
+
+
+
