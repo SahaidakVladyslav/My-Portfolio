@@ -1,7 +1,7 @@
 
 
-import iziToast from 'izitoast';
-import 'izitoast/dist/css/iziToast.min.css';
+import iziToast from "izitoast";
+import "izitoast/dist/css/iziToast.min.css";
 import throttle from 'lodash.throttle';
 
 
@@ -43,18 +43,7 @@ const storageGet = () => {
 }
 
 iziToast.settings({
-    timeout: 10000,
-    resetOnHover: true,
-    icon: 'material-icons',
-    transitionIn: 'flipInX',
-    transitionOut: 'flipOutX',
     position: 'topRight',
-    onOpening: function () {
-        console.log('callback abriu!');
-    },
-    onClosing: function () {
-        console.log("callback fechou!");
-    }
 });
 
 
